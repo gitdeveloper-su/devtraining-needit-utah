@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="05754921c3216a1003e231cc050131cf" label="test" max_length="40" name="x_58872_needit_test" type="collection">
+        <element label="number" max_length="40" name="number" type="string"/>
+        <element label="machine" max_length="32" name="e" reference="x_58872_needit_test" reference_qual="status=1" reference_qual_condition="status=1" type="reference"/>
+        <element choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element label="user" max_length="40" name="user" type="string"/>
+        <index name="index">
+            <element name="e"/>
+        </index>
+    </element>
+</database>
