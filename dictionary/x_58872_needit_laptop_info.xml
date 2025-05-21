@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1192fdcf47692210713b52e1d16d4326" label="Laptop Info" max_length="40" name="x_58872_needit_laptop_info" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="laptop type" max_length="40" name="laptop_type" type="string"/>
+    </element>
+</database>
