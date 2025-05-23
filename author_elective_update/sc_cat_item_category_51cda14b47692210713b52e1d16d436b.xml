@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Applicant Laptops">228d6d0b47692210713b52e1d16d4385</sc_cat_item>
+        <sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>51cda14b47692210713b52e1d16d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_category_51cda14b47692210713b52e1d16d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sc_cat_item_category_51cda14b47692210713b52e1d16d436b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Applicant Laptops">228d6d0b47692210713b52e1d16d4385</sc_cat_item>
+        <sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>51cda14b47692210713b52e1d16d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_category_51cda14b47692210713b52e1d16d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>-1612434253</payload_hash>
+        <record_name>Laptops.Applicant Laptops</record_name>
+        <reverted_from/>
+        <source>4e68bf974769a210713b52e1d16d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 06:50:16</sys_created_on>
+        <sys_id>39883bd74769a210713b52e1d16d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f6c1c4c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 06:50:16</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f1883bd7ec69a210a71363e11efccaec</update_guid>
+        <update_guid_history>f1883bd7ec69a210a71363e11efccaec:0,f9c2bf5fff29a2106bc8a6648167dede:-15225517,12737a47ebed2210940f8bf1a9a34656:0,b3756643d3ad22100398af2d361ddff3:-15225517,59cda14b0f6922100a35e7540331026e:522276317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptops.Applicant Laptops">8e74fc3f47a12610713b52e1d16d43be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 05:50:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>3977984eac8841a0ad3adc9b8929cd49</sys_id>
+        <sys_metadata>51cda14b47692210713b52e1d16d436b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_51cda14b47692210713b52e1d16d436b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_51cda14b47692210713b52e1d16d436b">39883bd74769a210713b52e1d16d43ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 05:50:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

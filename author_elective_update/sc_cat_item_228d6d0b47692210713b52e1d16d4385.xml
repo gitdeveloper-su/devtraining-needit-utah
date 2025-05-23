@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Approval Computer Flow">ba16256b47a1e210713b52e1d16d43b9</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Applicant Laptops</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=228d6d0b47692210713b52e1d16d4385&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>228d6d0b47692210713b52e1d16d4385</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_228d6d0b47692210713b52e1d16d4385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 05:50:38</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>40</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=228d6d0b47692210713b52e1d16d4385"/>
+    <fx_price action="DELETE" query="id=228d6d0b47692210713b52e1d16d4385"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CNY">CNY</currency>
+        <field>price</field>
+        <id>228d6d0b47692210713b52e1d16d4385</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>15cda14b47692210713b52e1d16d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>228d6d0b47692210713b52e1d16d4385</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>9dcda14b47692210713b52e1d16d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sc_cat_item_228d6d0b47692210713b52e1d16d4385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out>false</checked_out><cost>0</cost><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow display_value="Approval Computer Flow">ba16256b47a1e210713b52e1d16d43b9</flow_designer_flow><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Applicant Laptops</name><no_attachment_v2>true</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>true</no_cart_v2><no_delivery_time_v2>true</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>true</no_quantity_v2><no_save_as_draft>true</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=228d6d0b47692210713b52e1d16d4385&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><recurring_price>0</recurring_price><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state>published</state><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 02:05:32</sys_created_on><sys_id>228d6d0b47692210713b52e1d16d4385</sys_id><sys_mod_count>40</sys_mod_count><sys_name>Applicant Laptops</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_228d6d0b47692210713b52e1d16d4385</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-23 05:50:38</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>40</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=228d6d0b47692210713b52e1d16d4385"/><fx_price action="delete_multiple" query="id=228d6d0b47692210713b52e1d16d4385"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="CNY">CNY</currency><field>price</field><id>228d6d0b47692210713b52e1d16d4385</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 02:05:32</sys_created_on><sys_id>15cda14b47692210713b52e1d16d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 02:05:32</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>228d6d0b47692210713b52e1d16d4385</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 02:05:32</sys_created_on><sys_id>9dcda14b47692210713b52e1d16d4363</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 02:05:32</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1521072631</payload_hash>
+        <record_name>Applicant Laptops</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 05:50:38</sys_created_on>
+        <sys_id>5a74fc3f47a12610713b52e1d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196fbb18b390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 05:50:38</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>de74fc3fe1a12610bd0f554ab8e9b9c5</update_guid>
+        <update_guid_history>de74fc3fe1a12610bd0f554ab8e9b9c5:1521072631,ecd0b8f791a1261027a8177647c60d6a:1895975926,9d187beb956de21079e4b7dd201f4735:-676056059,587508ebffa9a210dc497c6fd9411891:1231650288,b9883bd79669a210c42fedecbf99ccd7:0,02c2ff5fa929a21018185e26f80f9219:1639136041,f9c2bf5fed29a210872238399bac6ee0:-483655921,f9c2bf5f0829a210af35f9dbb1d2c4c6:358051835,91549317afa5a21052ebfd1432f24e63:-1520289608,34f21b53c4a5a21038e2164e051c0984:-825132635,2250571fec65a210acff8350d4eb5e12:-1411657700,72eefa93e325a21049c5263c1eddd7a4:-314110333,bffc0f0b75616210c272542d2cd2a28a:-9524634,41ec0b0bd66162102bb8aa4c49a31df1:1719047279,12737a479aed2210b5c29315485cfb36:0,0085a64370ad2210c311bb5519e95343:609557555,ff75a643efad22107b59b83db5714c0d:-1298992971,737566439dad2210a217ea2b0c080dc5:973671301,1ebe960bd66d22101725265e97dda72d:-210756184,a5c31e8b752d2210680b2075f270cd3f:1627790828,4643d24b882d2210a98c0ca601365d75:-283587925,51d21a4bd42d221092cab502f45baa92:2100000618,cb129a87fb2d2210f63e4da449835680:188621865,5d701a87482d22101ac92ceded0442f8:1087962259,05005e47c72d22106ea744c1474cf6df:-823416494,d5df4247482d2210d82da26083699594:1560172049,659f8647452d22107211b771f4278cbd:-351206704,0b5f8e071a2d221071af01685df24db4:2032381839,6e2f06834c2d221035c9752c4af8bea3:121003086,314d0a83f12d2210f3e50e43324d2f51:-1790375667,8eac8a43ba2d2210a3bab4b30f4251e1:593212876,688cc643ad2d2210cc6968bd79bb489a:-1318165877,57c8390bb2a92210b68bf57b2b136807:1065422666,17c8fdc760a92210182b83af3574322a:810408943,cf1879c7a9a92210fd63ac9e813a671d:-1100969810,5e1839c7e4a92210df34e03b5dbdae6d:1282618733,6977f9877ca922105a179546f52d0012:-628760020,d177f98762a92210520ac8507a5aeb06:-1385784656,1c077187dba92210962fa2a208d21538:997803887,4be6bd47d0a9221054f73c11cb725cd6:1145184425,7ba575070fa9221006343302609d9949:-766194328,0ea431c336a922109a921181186ea501:1617394215,5b24b583c8a92210e8dd893cf6e21726:-293984538,b862b9cf316922107db6ee41984d130a:-1525140114,9291f14fef6922108230d9c9289757a1:858448429,d4c0f14ff86922105e8aa350d712cf62:-1052930324,4180b14f41692210ba59da5dc476213c:1330658219,1d50bd0f3a692210dfc54abd122ce835:-580720534,fc20790fa769221072d11a0d10279ad6:1802868009,96ef250f066922108b07a59e30e9a4a6:-108510744,31ae618bca6922104fca1f3b7d6935e1:-2019889497,d1cda14ba1692210acab3eff6700197c:363699046,d9cda14bb869221003737258cf4cc674:-1076817212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Applicant Laptops">de74fc3f47a12610713b52e1d16d43ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-05-23 05:50:39</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>7cdcafc92c7a4f7c80f7cd247ae61b69</sys_id>
+        <sys_metadata>228d6d0b47692210713b52e1d16d4385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_228d6d0b47692210713b52e1d16d4385</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_228d6d0b47692210713b52e1d16d4385">5a74fc3f47a12610713b52e1d16d43c6</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-23 05:50:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

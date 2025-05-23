@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Applicant Laptops">228d6d0b47692210713b52e1d16d4385</sc_cat_item>
+        <sc_cat_item display_value="Applicant Laptops">5a04743f47a12610713b52e1d16d4304</sc_cat_item>
         <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
-        <sys_id>d1cda14b47692210713b52e1d16d4366</sys_id>
+        <sys_created_on>2025-05-23 05:48:44</sys_created_on>
+        <sys_id>5e04743f47a12610713b52e1d16d4307</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Catalog.Applicant Laptops</sys_name>
+        <sys_name>Service Catalog.Copy of Applicant Laptops</sys_name>
         <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_d1cda14b47692210713b52e1d16d4366</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_5e04743f47a12610713b52e1d16d4307</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+        <sys_updated_on>2025-05-23 05:48:44</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>

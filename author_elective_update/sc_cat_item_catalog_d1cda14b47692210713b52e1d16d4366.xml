@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Applicant Laptops">228d6d0b47692210713b52e1d16d4385</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>d1cda14b47692210713b52e1d16d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d1cda14b47692210713b52e1d16d4366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sc_cat_item_catalog_d1cda14b47692210713b52e1d16d4366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Applicant Laptops">228d6d0b47692210713b52e1d16d4385</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 02:05:32</sys_created_on>
+        <sys_id>d1cda14b47692210713b52e1d16d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d1cda14b47692210713b52e1d16d4366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:05:32</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>1220048289</payload_hash>
+        <record_name>Service Catalog.Applicant Laptops</record_name>
+        <reverted_from/>
+        <source>4e68bf974769a210713b52e1d16d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 06:50:16</sys_created_on>
+        <sys_id>f5883bd74769a210713b52e1d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f6c1c4400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 06:50:16</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b1883bd7d369a21003ae3381b14c90db</update_guid>
+        <update_guid_history>b1883bd7d369a21003ae3381b14c90db:0,f5c2bf5f4029a2106ceffed57bf71ae2:815031167,52737a4764ed221071098edee4d6a939:0,7b75a64343ad2210a887c43e911fcc0f:815031167,1dcda14bd26922109d387bdf4c8cdd69:-1659586035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Applicant Laptops">ca74fc3f47a12610713b52e1d16d43b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 05:50:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5c9b28bd9959459c8bbdab27e060e1e4</sys_id>
+        <sys_metadata>d1cda14b47692210713b52e1d16d4366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Applicant Laptops</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">228d6d0b47692210713b52e1d16d4385</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d1cda14b47692210713b52e1d16d4366</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d1cda14b47692210713b52e1d16d4366">f5883bd74769a210713b52e1d16d43db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 05:50:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
