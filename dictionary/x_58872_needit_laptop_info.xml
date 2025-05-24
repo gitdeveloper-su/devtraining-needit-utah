@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1192fdcf47692210713b52e1d16d4326" label="Laptop Info" max_length="40" name="x_58872_needit_laptop_info" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="laptop type" max_length="40" name="laptop_type" type="string"/>
+        <element label="SN" max_length="40" name="sn" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="state" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="in use" sequence="1" value="in_use"/>
+                <element inactive_on_update="false" label="idel" sequence="0" value="idel"/>
+                <element inactive_on_update="false" label="in pressing" sequence="2" value="in_pressing"/>
+            </choice>
+        </element>
+        <element label="Assigner" max_length="32" name="assigner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigner"/>
+        </index>
     </element>
 </database>
