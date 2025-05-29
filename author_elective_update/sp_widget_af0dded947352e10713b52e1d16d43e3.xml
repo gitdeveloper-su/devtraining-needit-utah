@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $sce, $sanitize) {
+	var c = this;
+	$scope.data.displayValueList[0] = $sce.trustAsHtml($sanitize($scope.data.displayValueList[0]));
+	$scope.data.displayValueList[1] = $sce.trustAsHtml($sanitize($scope.data.displayValueList[1]));
+}
+    ]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.todo-summary-cell {
+	position: relative;
+  margin-bottom: 0;
+  border: none;
+  box-shadow:none;
+  border-bottom: 1px solid $border;
+	.todo-summary-body {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: flex;
+    align-items:center;
+    min-height:82px;
+		.todo-summary-details {
+			overflow: hidden;
+			text-align: left !important;
+      margin-right: 15px;
+      .task-title {
+        font-size: 1.5rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+			}
+      .case-title {
+        font-size: 1.4rem;
+        text-overflow: ellipsis;
+        color:$color-darkest;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .text-muted {
+        font-size: 1.4rem;
+      }
+      .todo-status {
+      	padding-top:10px;
+      }
+      .fa-check-circle {
+				padding-right: 1px;
+        padding-left: 1px;
+			}
+		}
+    .todo-summary-icon {
+      display: flex;
+    	vertical-align: middle;
+    	padding: 0 0 0 15px;
+    	font-size: 1.82rem;
+      justify-content: center;
+      .fa-level-up {
+        color: $color-light;
+        transform: rotate(90deg);
+        vertical-align: -webkit-baseline-middle;
+        margin-right: 15px;
+    	} 
+    }
+  }
+}
+
+
+/*Increasing width for childern tasks*/
+.todo-summary-body{
+  .indent-xsm {
+    padding-left: 48px !important;
+  }
+
+  .indent-xs {
+    padding-left: 0px;
+  }
+}
+
+
+/* IE Fixes */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+  .todo-summary-body {
+    .indent-xs {
+      width: 5em;
+    }	
+  }
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>This widget contains 3 rows that correspond to the 3 fields defined in the configuration.
+For HR task show the following information:
+Short Description
+HR Service Name - Subject Person
+Due Date
+HR Case
+
+
+</description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of To-dos header Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var fields = ['sysId', 'tableName', 'displayValueList', 'dueDateDisplayValue', 'level', 'onTicketPage', 'isCompleted', 'hasDueDate'];
+	function copyFields(from) {
+		var field;
+		for (var x in fields) {
+			field = fields[x];
+			if (!gs.nil(from[field])) {
+				data[field] = from[field];
+			}
+		}
+	}
+	if (input) {
+		copyFields(input);
+	}
+	if (options) {
+		copyFields(options);
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:18:28</sys_created_on>
+        <sys_id>af0dded947352e10713b52e1d16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of To-dos header Widget</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_af0dded947352e10713b52e1d16d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:18:28</sys_updated_on>
+        <template><![CDATA[<div class="todo-summary-cell">
+      <div class="todo-summary-body">
+        <div class="todo-summary-icon" ng-class="{'indent-xsm':data.level == 2,'indent-xs':data.level == 1 }">
+          <span ng-if="data.onTicketPage && (data.level == 1 || data.level == 2)"><i class="fa fa-level-up"></i></span>
+        </div>
+        <div class="todo-summary-details">
+          <div class="task-title"> 
+            <a href="javascript:void(0);" role="link" aria-label="{{data.displayValueList[0]}}" ng-bind-html="data.displayValueList[0]"></a>
+          </div>
+          <div ng-if="data.displayValueList[1]&&( data.isCompleted || !data.onTicketPage) " class="case-title" aria-label="{{data.displayValueList[1]}}"> 
+            <i ng-if="data.isCompleted && data.onTicketPage" class="fa fa-check-circle"></i><div ng-bind-html="data.displayValueList[1]"></div>
+          </div>
+
+          <div ng-if="data.dueDateDisplayValue" class="text-muted" ng-class="{'todo-status': !data.onTicketPage}">
+            <span aria-label="{{data.dueDateDisplayValue}}">
+            	<i ng-if="data.isCompleted" class="fa fa-check-circle success"></i> {{data.isCompleted && data.hasDueDate ? '${Completed}' : data.dueDateDisplayValue}}
+            </span>
+          </div>
+        </div>
+  	</div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_widget_af0dded947352e10713b52e1d16d43e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $sce, $sanitize) {
+	var c = this;
+	$scope.data.displayValueList[0] = $sce.trustAsHtml($sanitize($scope.data.displayValueList[0]));
+	$scope.data.displayValueList[1] = $sce.trustAsHtml($sanitize($scope.data.displayValueList[1]));
+}
+    ]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.todo-summary-cell {
+	position: relative;
+  margin-bottom: 0;
+  border: none;
+  box-shadow:none;
+  border-bottom: 1px solid $border;
+	.todo-summary-body {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: flex;
+    align-items:center;
+    min-height:82px;
+		.todo-summary-details {
+			overflow: hidden;
+			text-align: left !important;
+      margin-right: 15px;
+      .task-title {
+        font-size: 1.5rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+			}
+      .case-title {
+        font-size: 1.4rem;
+        text-overflow: ellipsis;
+        color:$color-darkest;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .text-muted {
+        font-size: 1.4rem;
+      }
+      .todo-status {
+      	padding-top:10px;
+      }
+      .fa-check-circle {
+				padding-right: 1px;
+        padding-left: 1px;
+			}
+		}
+    .todo-summary-icon {
+      display: flex;
+    	vertical-align: middle;
+    	padding: 0 0 0 15px;
+    	font-size: 1.82rem;
+      justify-content: center;
+      .fa-level-up {
+        color: $color-light;
+        transform: rotate(90deg);
+        vertical-align: -webkit-baseline-middle;
+        margin-right: 15px;
+    	} 
+    }
+  }
+}
+
+
+/*Increasing width for childern tasks*/
+.todo-summary-body{
+  .indent-xsm {
+    padding-left: 48px !important;
+  }
+
+  .indent-xs {
+    padding-left: 0px;
+  }
+}
+
+
+/* IE Fixes */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+  .todo-summary-body {
+    .indent-xs {
+      width: 5em;
+    }	
+  }
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;This widget contains 3 rows that correspond to the 3 fields defined in the configuration.
+For HR task show the following information:
+Short Description
+HR Service Name - Subject Person
+Due Date
+HR Case
+
+
+&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Copy of To-dos header Widget&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	var fields = ['sysId', 'tableName', 'displayValueList', 'dueDateDisplayValue', 'level', 'onTicketPage', 'isCompleted', 'hasDueDate'];
+	function copyFields(from) {
+		var field;
+		for (var x in fields) {
+			field = fields[x];
+			if (!gs.nil(from[field])) {
+				data[field] = from[field];
+			}
+		}
+	}
+	if (input) {
+		copyFields(input);
+	}
+	if (options) {
+		copyFields(options);
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-28 05:18:28&lt;/sys_created_on&gt;&lt;sys_id&gt;af0dded947352e10713b52e1d16d43e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of To-dos header Widget&lt;/sys_name&gt;&lt;sys_package display_value="Demo" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_af0dded947352e10713b52e1d16d43e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-28 05:18:28&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="todo-summary-cell"&gt;
+      &lt;div class="todo-summary-body"&gt;
+        &lt;div class="todo-summary-icon" ng-class="{'indent-xsm':data.level == 2,'indent-xs':data.level == 1 }"&gt;
+          &lt;span ng-if="data.onTicketPage &amp;&amp; (data.level == 1 || data.level == 2)"&gt;&lt;i class="fa fa-level-up"&gt;&lt;/i&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class="todo-summary-details"&gt;
+          &lt;div class="task-title"&gt; 
+            &lt;a href="javascript:void(0);" role="link" aria-label="{{data.displayValueList[0]}}" ng-bind-html="data.displayValueList[0]"&gt;&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div ng-if="data.displayValueList[1]&amp;&amp;( data.isCompleted || !data.onTicketPage) " class="case-title" aria-label="{{data.displayValueList[1]}}"&gt; 
+            &lt;i ng-if="data.isCompleted &amp;&amp; data.onTicketPage" class="fa fa-check-circle"&gt;&lt;/i&gt;&lt;div ng-bind-html="data.displayValueList[1]"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;div ng-if="data.dueDateDisplayValue" class="text-muted" ng-class="{'todo-status': !data.onTicketPage}"&gt;
+            &lt;span aria-label="{{data.dueDateDisplayValue}}"&gt;
+            	&lt;i ng-if="data.isCompleted" class="fa fa-check-circle success"&gt;&lt;/i&gt; {{data.isCompleted &amp;&amp; data.hasDueDate ? '${Completed}' : data.dueDateDisplayValue}}
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+  	&lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-604838494</payload_hash>
+        <record_name>Copy of To-dos header Widget</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:18:28</sys_created_on>
+        <sys_id>e70d9e1d47352e10713b52e1d16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1971553e1dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:18:28</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>eb0d9e1d08352e1027e8a5f820e9cb22</update_guid>
+        <update_guid_history>eb0d9e1d08352e1027e8a5f820e9cb22:-604838494</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of To-dos header Widget">e5a25f2d473d6e10713b52e1d16d4348</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 03:51:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>80889631cebd4f9c9554a0071a9288a1</sys_id>
+        <sys_metadata>af0dded947352e10713b52e1d16d43e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of To-dos header Widget</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_widget_af0dded947352e10713b52e1d16d43e3</sys_update_name>
+        <sys_update_version display_value="sp_widget_af0dded947352e10713b52e1d16d43e3">e70d9e1d47352e10713b52e1d16d4323</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 03:51:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

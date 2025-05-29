@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+
+    var c = this;
+
+    c.activeSection = 'section1';
+
+    var parent_form = $scope.page.g_form;
+
+
+    c.showSection = function(sectiontype) {
+
+        if (sectiontype == 'section1') {
+            c.activeSection = 'section1';
+            parent_form.setValue('custom_item', '1');
+            //g_form.setDisplay('please_enter_the_manager_s_name', false);
+            //g_form.setDisplay('please_enter_the_applicant_s_name', false);
+            //g_form.setDisplay('please_chiose_laptop_type', false);
+            //g_form.setDisplay('please_enter_the_remark', false);
+        } else {
+            c.activeSection = 'section2';
+            parent_form.setValue('custom_item', '2');
+            //g_form.fireEvent('custom_item', 'change');
+            //g_form.setDisplay('please_enter_the_manager_s_name', true);
+            //g_form.setDisplay('please_enter_the_applicant_s_name', true);
+            //g_form.setDisplay('please_chiose_laptop_type', true);
+            //g_form.setDisplay('please_enter_the_remark', true);
+        }
+
+    }
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>widget_for_demo2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>widget for demo2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:26:56</sys_created_on>
+        <sys_id>7ffe129d47352e10713b52e1d16d4325</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>widget for demo2</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_7ffe129d47352e10713b52e1d16d4325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 07:02:39</sys_updated_on>
+        <template><![CDATA[<div>
+  <button ng-click="c.showSection('section1')" class="btn" ng-class="{'btn-primary': c.activeSection === 'section1', 'btn-default': c.activeSection !== 'section1'}">Step1</button>
+  <button ng-click="c.showSection('section2')" class="btn" ng-class="{'btn-primary': c.activeSection === 'section2', 'btn-default': c.activeSection !== 'section2'}">Step2</button>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7ffe129d47352e10713b52e1d16d4325</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:26:56</sys_created_on>
+        <sys_id>3bfe56dd47352e10713b52e1d16d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:26:56</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

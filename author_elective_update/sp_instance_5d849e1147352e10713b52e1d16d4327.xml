@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>10</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1153569d47f12e10713b52e1d16d43eb</sp_column>
+        <sp_widget display_value="HRM Catalog Item">9e0a0e9373a75300c629e1e54cf6a7cd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:41:10</sys_created_on>
+        <sys_id>5d849e1147352e10713b52e1d16d4327</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_instance_5d849e1147352e10713b52e1d16d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=5d849e1147352e10713b52e1d16d4327"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_instance_5d849e1147352e10713b52e1d16d4327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>10</order><roles/><short_description/><size>md</size><sp_column display_value="1">1153569d47f12e10713b52e1d16d43eb</sp_column><sp_widget display_value="HRM Catalog Item">9e0a0e9373a75300c629e1e54cf6a7cd</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 04:41:10</sys_created_on><sys_id>5d849e1147352e10713b52e1d16d4327</sys_id><sys_mod_count>9</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sp_instance_5d849e1147352e10713b52e1d16d4327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 04:48:31</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=5d849e1147352e10713b52e1d16d4327"/></record_update>]]></payload>
+        <payload_hash>372265031</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:48:31</sys_created_on>
+        <sys_id>413696d147352e10713b52e1d16d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197153878110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:31</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c53696d136352e10f1b5cfbae199f32d</update_guid>
+        <update_guid_history>c53696d136352e10f1b5cfbae199f32d:372265031,242616d17d352e10800009c85136b58c:636285896,0ff552d144352e106bcbc3a0f8d58f02:372265031,4ee5de9115352e10b7ce59a4f33a9c63:680037565,d2d55e91e0352e1085dbec4b283ae7ab:416016700,9d65929158352e1089ad9800ba534436:151995835,e6c416517e352e1061fcb4eafcce63e4:416016700,dab4925180352e1026ecdfd67d6e3cee:151995835,84b492517c352e105033b6d28fbbe905:-112025030,55849e11ae352e1060bb210e4976e629:-376045895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8e3696d147352e10713b52e1d16d43a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:48:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>16ee18525834448c938e455fe2149441</sys_id>
+        <sys_metadata>5d849e1147352e10713b52e1d16d4327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_instance_5d849e1147352e10713b52e1d16d4327</sys_update_name>
+        <sys_update_version display_value="sp_instance_5d849e1147352e10713b52e1d16d4327">413696d147352e10713b52e1d16d432e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

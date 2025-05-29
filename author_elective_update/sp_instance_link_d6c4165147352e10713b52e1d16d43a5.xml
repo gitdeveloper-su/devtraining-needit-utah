@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>home</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>6</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1153569d47f12e10713b52e1d16d43eb</sp_column>
+        <sp_page display_value="my_catalog_item_page">7cba40b747ede210713b52e1d16d4342</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:42:20</sys_created_on>
+        <sys_id>d6c4165147352e10713b52e1d16d43a5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>home</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_instance_link_d6c4165147352e10713b52e1d16d43a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:47:13</sys_updated_on>
+        <title>home</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "圆圈图标"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=d6c4165147352e10713b52e1d16d43a5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_instance_link_d6c4165147352e10713b52e1d16d43a5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;home&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;6&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1153569d47f12e10713b52e1d16d43eb&lt;/sp_column&gt;&lt;sp_page display_value="my_catalog_item_page"&gt;7cba40b747ede210713b52e1d16d4342&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-28 04:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d6c4165147352e10713b52e1d16d43a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;home&lt;/sys_name&gt;&lt;sys_package display_value="Demo" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_d6c4165147352e10713b52e1d16d43a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-28 04:47:13&lt;/sys_updated_on&gt;&lt;title&gt;home&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "圆圈图标"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6c4165147352e10713b52e1d16d43a5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1341072007</payload_hash>
+        <record_name>home</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:47:13</sys_created_on>
+        <sys_id>79e5de9147352e10713b52e1d16d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197153746410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:47:13</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>fde5de9195352e10bc326cdc3a275f41</update_guid>
+        <update_guid_history>fde5de9195352e10bc326cdc3a275f41:-1341072007,5ed55e91f8352e10d69fecc7d104c47c:2106729592,1ab55a91ea352e1084014d4a7d7ecca9:1259563895,cdb55a5162352e10de5ef9f7cfb671ad:412398198,a655de11e0352e109402d872180a5f3a:513589146,8b151611ea352e10e16821f5f4cd0a93:881915285,67f4de1137352e102678245602380fe5:181811396,56c41651af352e10d62f46588faffea7:1886725646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="home">da3696d147352e10713b52e1d16d43dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:48:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>332167c53f214026a187b23b929490e4</sys_id>
+        <sys_metadata>d6c4165147352e10713b52e1d16d43a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>home</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_d6c4165147352e10713b52e1d16d43a5</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_d6c4165147352e10713b52e1d16d43a5">79e5de9147352e10713b52e1d16d4342</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

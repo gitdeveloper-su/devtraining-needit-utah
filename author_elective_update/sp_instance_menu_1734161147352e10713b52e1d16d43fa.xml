@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>14</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1153569d47f12e10713b52e1d16d43eb</sp_column>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:39:56</sys_created_on>
+        <sys_id>1734161147352e10713b52e1d16d43fa</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_instance_menu_1734161147352e10713b52e1d16d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=1734161147352e10713b52e1d16d43fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_instance_menu_1734161147352e10713b52e1d16d43fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>14</order><roles/><short_description/><size>md</size><sp_column display_value="1">1153569d47f12e10713b52e1d16d43eb</sp_column><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 04:39:56</sys_created_on><sys_id>1734161147352e10713b52e1d16d43fa</sys_id><sys_mod_count>13</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sp_instance_menu_1734161147352e10713b52e1d16d43fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 04:48:31</sys_updated_on><title/><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=1734161147352e10713b52e1d16d43fa"/></record_update>]]></payload>
+        <payload_hash>-1084399493</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:48:31</sys_created_on>
+        <sys_id>cd3696d147352e10713b52e1d16d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197153878f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:31</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>453696d1f2352e10f40fef5885c02d40</update_guid>
+        <update_guid_history>453696d1f2352e10f40fef5885c02d40:-1084399493,a02616d1da352e1072b28e5b242a459f:657442202,9bf552d148352e10d7731c8fd431be15:-1084399493,cae5de91dc352e107a77320621c6a276:1468726108,52d55e9145352e100c032c4e12e7a1be:-273115587,1d65929141352e10f870ceae354e2f49:-2014957282,66c4165103352e10e331b77a1406a4f7:-273115587,5ab4d2511c352e1023e8ad70e07ce501:-2014957282,14b4925107352e107297ab39b4991918:538168319,d384de11bf352e10d0b8d21aa0f1c40b:778363941,d5849e1166352e105cdb21efc2e20262:-963477754,c9741e11bc352e1061c7e1b7b4fce981:1589647847,48649a11a9352e1077a29c97fc52319e:-152193848,53341611d9352e1095a604c8ad47c1fc:-1894035543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c63696d147352e10713b52e1d16d4389</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:48:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>1562bd60ee4b4034839ebed7f8ea4239</sys_id>
+        <sys_metadata>1734161147352e10713b52e1d16d43fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_1734161147352e10713b52e1d16d43fa</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_1734161147352e10713b52e1d16d43fa">cd3696d147352e10713b52e1d16d4340</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:48:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
