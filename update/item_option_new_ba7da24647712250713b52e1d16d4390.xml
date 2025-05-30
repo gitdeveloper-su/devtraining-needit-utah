@@ -26,7 +26,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>custom_item</name>
+        <name>downloadpdf</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>10</order>
+        <order>110</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>custom item</question_text>
+        <question_text>DownloadPDF</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -73,24 +73,24 @@
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
-        <sp_widget/>
+        <sp_widget display_value="widget for demo3">a50b620647712250713b52e1d16d4300</sp_widget>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 04:58:27</sys_created_on>
-        <sys_id>2638169547352e10713b52e1d16d4338</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>custom item</sys_name>
+        <sys_created_on>2025-05-30 14:26:58</sys_created_on>
+        <sys_id>ba7da24647712250713b52e1d16d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DownloadPDF</sys_name>
         <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>item_option_new_2638169547352e10713b52e1d16d4338</sys_update_name>
+        <sys_update_name>item_option_new_ba7da24647712250713b52e1d16d4390</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 08:44:10</sys_updated_on>
+        <sys_updated_on>2025-05-30 14:26:58</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>6</type>
+        <type>14</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=2638169547352e10713b52e1d16d4338"/>
-    <fx_price action="delete_multiple" query="id=2638169547352e10713b52e1d16d4338"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba7da24647712250713b52e1d16d4390"/>
+    <fx_price action="delete_multiple" query="id=ba7da24647712250713b52e1d16d4390"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>price_if_checked</field>
-        <id>2638169547352e10713b52e1d16d4338</id>
+        <id>ba7da24647712250713b52e1d16d4390</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 04:58:27</sys_created_on>
-        <sys_id>ee785a9547352e10713b52e1d16d43a7</sys_id>
+        <sys_created_on>2025-05-30 14:26:59</sys_created_on>
+        <sys_id>42cd2ac647712250713b52e1d16d4328</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 04:58:27</sys_updated_on>
+        <sys_updated_on>2025-05-30 14:26:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>rec_price_if_checked</field>
-        <id>2638169547352e10713b52e1d16d4338</id>
+        <id>ba7da24647712250713b52e1d16d4390</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 04:58:27</sys_created_on>
-        <sys_id>22785a9547352e10713b52e1d16d43a7</sys_id>
+        <sys_created_on>2025-05-30 14:26:59</sys_created_on>
+        <sys_id>02cd2ac647712250713b52e1d16d4327</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 04:58:27</sys_updated_on>
+        <sys_updated_on>2025-05-30 14:26:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

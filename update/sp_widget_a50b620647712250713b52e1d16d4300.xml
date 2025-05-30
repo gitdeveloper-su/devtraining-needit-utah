@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+
+    var parent_form = $scope.page.g_form;
+    var parent_navigation = $scope.page.g_navigation;
+
+    try {
+        c.downloadPDF = function() {
+
+            // var sys_table = g_form.getTableName();
+            var sys_table = 'x_58872_needit_laptop_info';
+            var sys_id = parent_form.getUniqueValue().toString();
+            var link = 'https://dev348706.service-now.com/';
+
+            var url = link + sys_table + '.do?PDF&sys_id=' + sys_id;
+
+            // g_navigation.openPopup(url);
+			window.location.href = url;
+        }
+    } catch (e) {
+        alert(e.message);
+    }
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>widget_for_demo3</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>widget for demo3</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 14:14:56</sys_created_on>
+        <sys_id>a50b620647712250713b52e1d16d4300</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>widget for demo3</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_a50b620647712250713b52e1d16d4300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 15:49:05</sys_updated_on>
+        <template><![CDATA[<div>
+  <button ng-click="c.downloadPDF()" class="btn btn-primary">PDF</button>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a50b620647712250713b52e1d16d4300</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 14:14:56</sys_created_on>
+        <sys_id>690b620647712250713b52e1d16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 14:14:56</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
