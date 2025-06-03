@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>catalog_item_page_for_demo2</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:35:53</sys_created_on>
+        <sys_id>b743129147f12e10713b52e1d16d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_item_page_for_demo2</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_page_b743129147f12e10713b52e1d16d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:35:53</sys_updated_on>
+        <title>catalog item page for demo2</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=b743129147f12e10713b52e1d16d4328"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_page_b743129147f12e10713b52e1d16d4328</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>catalog_item_page_for_demo2</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 04:35:53</sys_created_on><sys_id>b743129147f12e10713b52e1d16d4328</sys_id><sys_mod_count>0</sys_mod_count><sys_name>catalog_item_page_for_demo2</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sp_page_b743129147f12e10713b52e1d16d4328</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 04:35:53</sys_updated_on><title>catalog item page for demo2</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=b743129147f12e10713b52e1d16d4328"/></record_update>]]></payload>
+        <payload_hash>-122615280</payload_hash>
+        <record_name>catalog_item_page_for_demo2</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:35:53</sys_created_on>
+        <sys_id>3743d2dd47f12e10713b52e1d16d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197152ce6230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:35:53</sys_updated_on>
+        <type>Page</type>
+        <update_guid>3b43d2dd5df12e10b7c1932c632ca3fe</update_guid>
+        <update_guid_history>3b43d2dd5df12e10b7c1932c632ca3fe:-122615280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="catalog_item_page_for_demo2">d04e7da647312210713b52e1d16d433d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 00:16:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>5fe8bb808cab40c9a6adf4bd4ecf7dc1</sys_id>
+        <sys_metadata>b743129147f12e10713b52e1d16d4328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_item_page_for_demo2</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_page_b743129147f12e10713b52e1d16d4328</sys_update_name>
+        <sys_update_version display_value="sp_page_b743129147f12e10713b52e1d16d4328">3743d2dd47f12e10713b52e1d16d43ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 00:16:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

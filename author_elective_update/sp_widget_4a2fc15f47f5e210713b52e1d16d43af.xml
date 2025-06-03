@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+    /* widget controller */
+    var c = this;
+
+    //   var parent_form = $scope.page.g_form;
+
+    c.widgetDialog = function() {
+
+        var dialog = new GlideDialogWindow('glide_confirm_basic', false, 300);
+        dialog.render();
+    }
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>widget_for_dialog_demo3</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>widget for dialog demo3</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 05:07:34</sys_created_on>
+        <sys_id>4a2fc15f47f5e210713b52e1d16d43af</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>widget for dialog demo3</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_4a2fc15f47f5e210713b52e1d16d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 05:57:04</sys_updated_on>
+        <template><![CDATA[<div>
+  <button ng-click="c.widgetDialog()" class="btn btn-primary">confirm</button>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="DELETE">
+        <id>4a2fc15f47f5e210713b52e1d16d43af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 05:07:33</sys_created_on>
+        <sys_id>1614599f47f5e210713b52e1d16d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 05:07:33</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_widget_4a2fc15f47f5e210713b52e1d16d43af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+    /* widget controller */
+    var c = this;
+
+    //   var parent_form = $scope.page.g_form;
+
+    c.widgetDialog = function() {
+
+        var dialog = new GlideDialogWindow('glide_confirm_basic', false, 300);
+        dialog.render();
+    }
+
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;widget_for_dialog_demo3&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;widget for dialog demo3&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-03 05:07:34&lt;/sys_created_on&gt;&lt;sys_id&gt;4a2fc15f47f5e210713b52e1d16d43af&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;widget for dialog demo3&lt;/sys_name&gt;&lt;sys_package display_value="Demo" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_4a2fc15f47f5e210713b52e1d16d43af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-03 05:57:04&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;button ng-click="c.widgetDialog()" class="btn btn-primary"&gt;confirm&lt;/button&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4a2fc15f47f5e210713b52e1d16d43af&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-03 05:07:33&lt;/sys_created_on&gt;&lt;sys_id&gt;1614599f47f5e210713b52e1d16d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-03 05:07:33&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-991776934</payload_hash>
+        <record_name>widget for dialog demo3</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 05:57:04</sys_created_on>
+        <sys_id>276f19134779e210713b52e1d16d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197345d607e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 05:57:04</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>ab6f1913be79e2105d9777d81cf74cc7</update_guid>
+        <update_guid_history>ab6f1913be79e2105d9777d81cf74cc7:-991776934,bf2ed513e379e210e7cc6a5ebde99673:551663365,691e55132f79e210fd50ac029fd46b57:-765601541,7efd11130879e210b2fa1ff2f655112a:1877180500,b3cd15dfd739e2107a39c417021fc7d9:42598102,17ad199f9639e21078f70bb6de6a829c:-12397951,8d4dd1df6339e2109f5bb158a86d5e93:1783850529,1cac555f4639e210e4202115b6399e91:387228219,9dbb155fab39e2100d2d39f5183e944a:1585832535,1bbad9db1f39e210804e9ee6321b6723:-1927693741,c59a91db7439e210782a4698eab221e5:-951310657,a05a55dbbc39e210106f718682771530:-1562264910,fae95d5bf739e210750d29558b3f7f7e:-1432375420,c629d15b8d39e210b577b0b1f654f5ae:-1642280900,5ba8915baf39e210069ce07d642dfcc0:-303742024,289759178a39e2108e1b807a3ea5bc11:-184182038,c654d1d38d39e21083e7a35fae849fa4:454064366,6214919f46f5e210911116258f3b8e77:-107937185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="widget for dialog demo3">09196d9f4779e210713b52e1d16d43bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 06:39:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>0c08873d41cd4af08202184e63329b10</sys_id>
+        <sys_metadata>4a2fc15f47f5e210713b52e1d16d43af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>widget for dialog demo3</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_widget_4a2fc15f47f5e210713b52e1d16d43af</sys_update_name>
+        <sys_update_version display_value="sp_widget_4a2fc15f47f5e210713b52e1d16d43af">276f19134779e210713b52e1d16d43c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 06:39:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

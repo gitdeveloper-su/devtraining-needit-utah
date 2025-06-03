@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="experience for demo2">1721759147712e10713b52e1d16d4327</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>demo page by builder2</name>
+        <optional_parameters>experience,selectedPlaybook,selectedStage,selectedActivity</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>demo-page-by-builder2</route_type>
+        <screen_type display_value="demo page by builder2">68c8315d47712e10713b52e1d16d43dc</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:39:53</sys_created_on>
+        <sys_id>a4c8315d47712e10713b52e1d16d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo page by builder2</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_a4c8315d47712e10713b52e1d16d43df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:39:53</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=a4c8315d47712e10713b52e1d16d43df"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sys_ux_app_route_a4c8315d47712e10713b52e1d16d43df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="experience for demo2">1721759147712e10713b52e1d16d4327</app_config><description/><extension_point/><fields>table,sysId</fields><icon/><name>demo page by builder2</name><optional_parameters>experience,selectedPlaybook,selectedStage,selectedActivity</optional_parameters><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>demo-page-by-builder2</route_type><screen_type display_value="demo page by builder2">68c8315d47712e10713b52e1d16d43dc</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 02:39:53</sys_created_on><sys_id>a4c8315d47712e10713b52e1d16d43df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>demo page by builder2</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_app_route_a4c8315d47712e10713b52e1d16d43df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 02:39:53</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=a4c8315d47712e10713b52e1d16d43df"/></record_update>]]></payload>
+        <payload_hash>-1407343640</payload_hash>
+        <record_name>demo page by builder2</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:39:53</sys_created_on>
+        <sys_id>acc8f95d47712e10713b52e1d16d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19714c2b1780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:39:53</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>a0c8f95d36712e1093870a19bd9f9e15</update_guid>
+        <update_guid_history>a0c8f95d36712e1093870a19bd9f9e15:-1407343640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 00:11:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0cd1e5c0653e4e8080a7af493f464900</sys_id>
+        <sys_metadata>a4c8315d47712e10713b52e1d16d43df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo page by builder2</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_a4c8315d47712e10713b52e1d16d43df</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_a4c8315d47712e10713b52e1d16d43df">acc8f95d47712e10713b52e1d16d4315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 00:11:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
