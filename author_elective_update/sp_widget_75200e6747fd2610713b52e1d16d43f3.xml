@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>sc</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+
+    var parent_form = $scope.page.g_form;
+    var parent_navigation = $scope.page.g_navigation;
+
+    try {
+        c.downloadPDF = function() {
+        }
+    } catch (e) {
+        alert(e.message);
+    }
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>widget_for_attachment</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Widget For Attachment</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 02:58:31</sys_created_on>
+        <sys_id>75200e6747fd2610713b52e1d16d43f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Widget For Attachment</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_75200e6747fd2610713b52e1d16d43f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 06:14:30</sys_updated_on>
+        <template><![CDATA[<div>
+  <input id="attachFile" class="col-sm-3" name="attachFile" role="button" type="file" aria-label="Choose file to upload">
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sp_widget_75200e6747fd2610713b52e1d16d43f3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;sc&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+
+    var parent_form = $scope.page.g_form;
+    var parent_navigation = $scope.page.g_navigation;
+
+    try {
+        c.downloadPDF = function() {
+        }
+    } catch (e) {
+        alert(e.message);
+    }
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;widget_for_attachment&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Widget For Attachment&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-04 02:58:31&lt;/sys_created_on&gt;&lt;sys_id&gt;75200e6747fd2610713b52e1d16d43f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Widget For Attachment&lt;/sys_name&gt;&lt;sys_package display_value="Demo" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_75200e6747fd2610713b52e1d16d43f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-04 06:14:30&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;input id="attachFile" class="col-sm-3" name="attachFile" role="button" type="file" aria-label="Choose file to upload"&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1835253289</payload_hash>
+        <record_name>Widget For Attachment</record_name>
+        <reverted_from/>
+        <source>f9c2bf5f4729a210713b52e1d16d43ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 06:14:30</sys_created_on>
+        <sys_id>740d626f47b16610713b52e1d16d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973993b2120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 06:14:30</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>e80d626f7db1661021b68853e72d8535</update_guid>
+        <update_guid_history>e80d626f7db1661021b68853e72d8535:1835253289,cf1ba62f6ab16610484ae96243e07912:2008185008,55f08ea772fd2610318964b893683b11:341937481,1460822702fd26103a4d854a0b4273cd:-722642082,f5200e6725fd2610eb8339b945cf13f5:-471353809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Widget For Attachment">7a36f6ab47f16610713b52e1d16d430b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 06:54:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>005e2012393845209b543b4f32563990</sys_id>
+        <sys_metadata>75200e6747fd2610713b52e1d16d43f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget For Attachment</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_widget_75200e6747fd2610713b52e1d16d43f3</sys_update_name>
+        <sys_update_version display_value="sp_widget_75200e6747fd2610713b52e1d16d43f3">740d626f47b16610713b52e1d16d4336</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 06:54:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
