@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.AjaxForAttachment</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AjaxForAttachment</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AjaxForAttachment = Class.create();
+AjaxForAttachment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getFilename: function() {
+
+        var sysId = this.getParameter('sysparm_sys_id');
+
+        var parser = new sn_impex.GlideExcelParser();
+        var attachment = new GlideSysAttachment();
+
+        var attachmentStream = attachment.getContentStream(sysId);
+
+        parser.parse(attachmentStream);
+
+        var exceldata = {
+            headers: [],
+            rows: []
+        };
+
+        //retrieve the column headers
+        var headers = parser.getColumnHeaders();
+        var header1 = headers[0];
+        var header2 = headers[1];
+
+        exceldata.headers.push(header1);
+        exceldata.headers.push(header2);
+
+        while (parser.next()) {
+            var row = parser.getRow();
+            //print row value for both columns
+            var rowData = {};
+            rowData[header1] = row[header1];
+            rowData[header2] = row[header2];
+
+            exceldata.rows.push(rowData);
+        }
+
+        return JSON.stringify(exceldata);
+    },
+
+    type: 'AjaxForAttachment'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:59:43</sys_created_on>
+        <sys_id>93bdf33f473da610713b52e1d16d4388</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>AjaxForAttachment</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_93bdf33f473da610713b52e1d16d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 15:03:45</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>93bdf33f473da610713b52e1d16d4388</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:59:43</sys_created_on>
+        <sys_id>f8f04ccc470ea610713b52e1d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:59:43</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
