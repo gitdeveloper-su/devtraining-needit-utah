@@ -24,7 +24,7 @@
     }
 
     var ajax = new GlideAjax('AjaxForAttachment');
-    ajax.addParam('sysparm_name', 'getFilename');
+    ajax.addParam('sysparm_name', 'getAttachment');
     ajax.addParam('sysparm_sys_id', g_form.getValue('please_choose_a_file'));
 
     ajax.getXML(function(response) {
@@ -37,11 +37,13 @@
         try {
             var data = JSON.parse(answer);
 
-            // g_form.setValue('field1', data.field1 || '');
-            // g_form.setValue('field2', data.field2 || '');
-
-			var value1 = data.field1 || '';
-			alert(value1);
+			var header1 = data.headers[0] || '';
+			var header2 = data.headers[1] || '';
+			var row1 = data.rows[0] || '';
+			var row2 = data.rows[1] || '';
+			
+			// alert(row1);
+			// alert(row2);
 
         } catch (e) {
             alert("error parsing Excel data");
@@ -56,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f85e44f747b96610713b52e1d16d430e</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>on Change demo3</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -64,7 +66,7 @@
         <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_f85e44f747b96610713b52e1d16d430e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-05 15:16:14</sys_updated_on>
+        <sys_updated_on>2025-06-06 01:46:35</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
