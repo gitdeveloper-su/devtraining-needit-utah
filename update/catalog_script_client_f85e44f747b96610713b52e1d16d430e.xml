@@ -33,25 +33,8 @@
             alert("answer is not found");
             return;
         }
-
-        try {
-            var data = JSON.parse(answer);
-
-			var header1 = data.headers[0] || '';
-			var header2 = data.headers[1] || '';
-			var value1 = data.rows[0][header1] || '';
-			var value2 = data.rows[0][header2] || '';
-			var value3 = data.rows[1][header1] || '';
-			var value4 = data.rows[1][header2] || '';
-			
-			alert(value1);
-			alert(value2);
-			alert(value3);
-			alert(value4);
-
-        } catch (e) {
-            alert("error parsing Excel data");
-        }
+		
+        g_form.setValue('mrvs_for_demo3', answer);
 
     });
 
@@ -62,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f85e44f747b96610713b52e1d16d430e</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>on Change demo3</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -70,7 +53,7 @@
         <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_f85e44f747b96610713b52e1d16d430e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 02:41:52</sys_updated_on>
+        <sys_updated_on>2025-06-06 07:00:47</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
