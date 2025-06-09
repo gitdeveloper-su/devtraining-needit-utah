@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Add WatchList</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var requester = current.sys_created_by;
+    var req_sys_id = current.sys_id;
+
+    // var grREQ = new GlideRecord('sc_req_item');
+    // grREQ.addQuery('request_item', req_sys_id);
+    // grREQ.query();
+
+    var grREQ = new GlideRecord('sc_req_item');
+    grREQ.get(req_sys_id);
+
+    grREQ.setValue('watch_list', requester);
+	grREQ.update();
+
+    // gs.info("grREQ = [" + grREQ.requested_for + "]");
+
+    // while (requestItem.hasNext()) {
+    //     // requestItem.setValue('watch_list', requester);
+    //     // requestItem.update();
+    // }
+
+    // var REQ = current.request.getRefRecord();
+    // REQ.setValue('assignment_group', 'sys_id_of_some_group');
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 14:46:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e7885cd47022e10713b52e1d16d4377</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Add WatchList</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_1e7885cd47022e10713b52e1d16d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:39:55</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=1e7885cd47022e10713b52e1d16d4377"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5d055c87ff65aa10c812f8e4fc4fd94e</instance_id>
+        <instance_name>dev348706</instance_name>
+        <name>sys_script_1e7885cd47022e10713b52e1d16d4377</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Add WatchList&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var requester = current.sys_created_by;
+    var req_sys_id = current.sys_id;
+
+    // var grREQ = new GlideRecord('sc_req_item');
+    // grREQ.addQuery('request_item', req_sys_id);
+    // grREQ.query();
+
+    var grREQ = new GlideRecord('sc_req_item');
+    grREQ.get(req_sys_id);
+
+    grREQ.setValue('watch_list', requester);
+	grREQ.update();
+
+    // gs.info("grREQ = [" + grREQ.requested_for + "]");
+
+    // while (requestItem.hasNext()) {
+    //     // requestItem.setValue('watch_list', requester);
+    //     // requestItem.update();
+    // }
+
+    // var REQ = current.request.getRefRecord();
+    // REQ.setValue('assignment_group', 'sys_id_of_some_group');
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-08 14:46:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1e7885cd47022e10713b52e1d16d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add WatchList&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Demo" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1e7885cd47022e10713b52e1d16d4377&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-09 07:39:55&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1e7885cd47022e10713b52e1d16d4377"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1776862156</payload_hash>
+        <record_name>Add WatchList</record_name>
+        <reverted_from/>
+        <source>d38f68d147066e10713b52e1d16d43cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 07:39:55</sys_created_on>
+        <sys_id>7480bc1547066e10713b52e1d16d4316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19753a1b4680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:39:55</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>f880bc153d066e10e7b00941c4700615</update_guid>
+        <update_guid_history>f880bc153d066e10e7b00941c4700615:1776862156,c14fe0d1b0066e105624b596d3ef421f:761681357,752d2411d8066e101e12c8dbe0e6cfce:516042328,15bc28dd08c26e10e52ecef9ab726fef:907214753,018ca4dd66c26e1000ba809fa8381544:692432946,900ce89d7fc26e10278fcb8c891ef109:-1457414421,375be45da2c26e106f1dd3094f5b2321:955493827,5a9aac594ec26e10a6a5113861eccf30:116421479,3ce72459f9c26e10f2a007c5d3ef4398:-1806311394,be2764d51ac26e10cfe14b2d4e7ab173:-151875713,94e6e895acc26e10e8e5ab7db17650aa:248320999,a5d62855ddc26e100f69f0cbb660e720:-435459166,a9c56055b5c26e108eb3c5817b8b2fae:872175022,8bf468d170c26e10105a8d5f10b490e8:1958653930,2934ec11cec26e108eb092847915f144:296383058,5942ec9d66826e10defa18666c93ab49:-273632454,573128dd51826e10198cb0989c78a5d5:-2045619499,b6df585d25826e10d4f12454341ef5b3:916469356,0af31c9d0a426e10087597eea709aa12:205463092,d9cac85d5ace2e100dc6d384aed25737:-443133314,c5ba04dd46ce2e10583badbf4f7f7003:1372915901,f8598c59b7ce2e1014b2e27392798adf:-995314216,a16608d5b3ce2e10150310b5c3828f24:1210055206,84abeb055a4e2e1029076808f17229b3:-1684142890,98866301b54e2e10022b0381b2150312:904749784,cae3230dcc0e2e102ee06ee140dc707b:381350077,b723e30da80e2e10e79be248c5638e99:-1821669944,6fb26bc91b0e2e1030e6a3e16bc2bdbc:-1159855849,4c01e349ac0e2e1031aaef048474305b:-809800483,64698d0187422e1087a2693cedf935a6:1843732501,1c19050100422e10c7a792ca4b8e55d0:-1243377984,9ce8050186422e105012251708cdd998:2140177594,ee988dcdca022e1038769e5d55cee47c:-1359725648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 07:45:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>05bf498d346a4a7f8158e3a47c99b589</sys_id>
+        <sys_metadata>1e7885cd47022e10713b52e1d16d4377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add WatchList</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Sc Req Item">a8d39e20c8d1221055906c7518aa2d82</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_1e7885cd47022e10713b52e1d16d4377</sys_update_name>
+        <sys_update_version display_value="sys_script_1e7885cd47022e10713b52e1d16d4377">7480bc1547066e10713b52e1d16d4316</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:45:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
