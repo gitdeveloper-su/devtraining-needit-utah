@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request for Resubmission">ce8e6151474a6e10713b52e1d16d436b</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 08:46:06</sys_created_on>
+        <sys_id>98d29ff5838622108b9cf496feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request for Resubmission</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_98d29ff5838622108b9cf496feaad3ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 08:46:06</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
