@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="sn_incident_read" name="sn_incident_read">20803f15870033000e56d61e36cb0b7d</contains>
+        <role display_value="x_58872_needit.holdinstance" name="x_58872_needit.holdinstance">69b3c4e383cee6108b9cf496feaad3cd</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 09:05:54</sys_created_on>
+        <sys_id>eb1785af83462a108b9cf496feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_incident_read.x_58872_needit.holdinstance</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_user_role_contains_eb1785af83462a108b9cf496feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 09:05:54</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_user_role_contains_eb1785af83462a108b9cf496feaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="sn_incident_read" name="sn_incident_read">20803f15870033000e56d61e36cb0b7d</contains><role display_value="x_58872_needit.holdinstance" name="x_58872_needit.holdinstance">69b3c4e383cee6108b9cf496feaad3cd</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-16 09:05:54</sys_created_on><sys_id>eb1785af83462a108b9cf496feaad379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_incident_read.x_58872_needit.holdinstance</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_user_role_contains_eb1785af83462a108b9cf496feaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-16 09:05:54</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-602386516</payload_hash>
+        <record_name>sn_incident_read.x_58872_needit.holdinstance</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-16 09:05:54</sys_created_on>
+        <sys_id>6c5789af83462a108b9cf496feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19777fceeed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 09:05:54</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>605789af65462a10c2158d3c28284098</update_guid>
+        <update_guid_history>605789af65462a10c2158d3c28284098:-602386516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 00:49:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>16287984b78d4ce28d274a981a01cb04</sys_id>
+        <sys_metadata>eb1785af83462a108b9cf496feaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_incident_read.x_58872_needit.holdinstance</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_eb1785af83462a108b9cf496feaad379</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_eb1785af83462a108b9cf496feaad379">6c5789af83462a108b9cf496feaad398</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 00:49:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
