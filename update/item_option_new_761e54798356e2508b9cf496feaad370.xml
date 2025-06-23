@@ -10,7 +10,7 @@
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>English</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -28,7 +28,7 @@
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions/>
+        <instructions><![CDATA[<p>This item is m<label for="ni.item_option_new.mandatory"><span title="">andatory!</span></label></p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -38,18 +38,18 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>input_age</name>
+        <name>input_language</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>5</order>
+        <order>20</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Input Age</question_text>
+        <question_text>input language</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -71,22 +71,22 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-11 08:44:12</sys_created_on>
-        <sys_id>1252d3f5838622108b9cf496feaad384</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Input Age</sys_name>
+        <sys_created_on>2025-06-23 05:55:01</sys_created_on>
+        <sys_id>761e54798356e2508b9cf496feaad370</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>input language</sys_name>
         <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>item_option_new_1252d3f5838622108b9cf496feaad384</sys_update_name>
+        <sys_update_name>item_option_new_761e54798356e2508b9cf496feaad370</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-23 01:53:02</sys_updated_on>
+        <sys_updated_on>2025-06-23 06:07:06</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1252d3f5838622108b9cf496feaad384"/>
-    <fx_price action="delete_multiple" query="id=1252d3f5838622108b9cf496feaad384"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=761e54798356e2508b9cf496feaad370"/>
+    <fx_price action="delete_multiple" query="id=761e54798356e2508b9cf496feaad370"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>price_if_checked</field>
-        <id>1252d3f5838622108b9cf496feaad384</id>
+        <id>761e54798356e2508b9cf496feaad370</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-11 08:44:12</sys_created_on>
-        <sys_id>fd62dfb5838622108b9cf496feaad3c4</sys_id>
+        <sys_created_on>2025-06-23 05:55:01</sys_created_on>
+        <sys_id>70ce90f58356e2508b9cf496feaad320</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 08:44:12</sys_updated_on>
+        <sys_updated_on>2025-06-23 05:55:01</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>rec_price_if_checked</field>
-        <id>1252d3f5838622108b9cf496feaad384</id>
+        <id>761e54798356e2508b9cf496feaad370</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-11 08:44:12</sys_created_on>
-        <sys_id>7562dfb5838622108b9cf496feaad3c4</sys_id>
+        <sys_created_on>2025-06-23 05:55:01</sys_created_on>
+        <sys_id>f4ce90f58356e2508b9cf496feaad31f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 08:44:12</sys_updated_on>
+        <sys_updated_on>2025-06-23 05:55:01</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_58872_needit_laptop_info' matching query:
+laptop type = ThnikPad One
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:19:34</sys_created_on>
+        <sys_id>1345f315839e62508b9cf496feaad3c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_1345f315839e62508b9cf496feaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:20:47</sys_updated_on>
+        <table>x_58872_needit_laptop_info</table>
+        <test display_value="AAMy New Test">fa3b953483daae108b9cf496feaad326</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=1345f315839e62508b9cf496feaad3c1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1345f315839e62508b9cf496feaad3c1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:19:36</sys_created_on>
+        <sys_id>30463b19839e62508b9cf496feaad3c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:20:47</sys_updated_on>
+        <value>laptop_type=ThnikPad One^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1345f315839e62508b9cf496feaad3c1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:19:36</sys_created_on>
+        <sys_id>7c463b19839e62508b9cf496feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:19:36</sys_updated_on>
+        <value>x_58872_needit_laptop_info</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1345f315839e62508b9cf496feaad3c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:19:36</sys_created_on>
+        <sys_id>b8463b19839e62508b9cf496feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:19:36</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1345f315839e62508b9cf496feaad3c1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:19:36</sys_created_on>
+        <sys_id>f4463b19839e62508b9cf496feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:19:36</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=1345f315839e62508b9cf496feaad3c1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_atf_step_1345f315839e62508b9cf496feaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Validate there is at least one record in 'x_58872_needit_laptop_info' matching query:
+laptop type = ThnikPad One
+With a failure timeout of 5 Seconds</description><display_name>Record Query</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-22 08:19:34</sys_created_on><sys_id>1345f315839e62508b9cf496feaad3c1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Record Query</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_1345f315839e62508b9cf496feaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-22 08:20:47</sys_updated_on><table>x_58872_needit_laptop_info</table><test display_value="AAMy New Test">fa3b953483daae108b9cf496feaad326</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=1345f315839e62508b9cf496feaad3c1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1345f315839e62508b9cf496feaad3c1</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-22 08:19:36</sys_created_on><sys_id>30463b19839e62508b9cf496feaad3c0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-22 08:20:47</sys_updated_on><value>laptop_type=ThnikPad One^EQ</value><variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1345f315839e62508b9cf496feaad3c1</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-22 08:19:36</sys_created_on><sys_id>7c463b19839e62508b9cf496feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-22 08:19:36</sys_updated_on><value>x_58872_needit_laptop_info</value><variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1345f315839e62508b9cf496feaad3c1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-22 08:19:36</sys_created_on><sys_id>b8463b19839e62508b9cf496feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-22 08:19:36</sys_updated_on><value>0</value><variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1345f315839e62508b9cf496feaad3c1</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-22 08:19:36</sys_created_on><sys_id>f4463b19839e62508b9cf496feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-22 08:19:36</sys_updated_on><value>records_match_query</value><variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7^id=1345f315839e62508b9cf496feaad3c1"/></record_update>]]></payload>
+        <payload_hash>1219325089</payload_hash>
+        <record_name>Record Query</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:20:47</sys_created_on>
+        <sys_id>0e867f19839e62508b9cf496feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19796b9c8e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:20:47</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>82867f19659e6250800e50c502a8490a</update_guid>
+        <update_guid_history>82867f19659e6250800e50c502a8490a:1219325089,f8463b19cc9e6250d7cd3d3830ceb2c1:2028774922</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 08:28:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>4677e3c9d802488195d94301e6417e99</sys_id>
+        <sys_metadata>1345f315839e62508b9cf496feaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_1345f315839e62508b9cf496feaad3c1</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_1345f315839e62508b9cf496feaad3c1">0e867f19839e62508b9cf496feaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 08:28:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Request for Resubmission">ce8e6151474a6e10713b52e1d16d436b</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>on Load for request </name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setDisplay('input_country', true);
+    g_form.setDisplay('input_age', true);
+	g_form.setDisplay('input_name', false);
+	g_form.setDisplay('input_approver', false);
+	g_form.setDisplay('input_language', false);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 01:51:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d986efe18352e2508b9cf496feaad35f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>on Load for request </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>catalog_script_client_d986efe18352e2508b9cf496feaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 06:08:40</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

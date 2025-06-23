@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Please chiose laptop type = ThnikPad One
+and Please enter the applicant's name. = Beth Anglin
+and Please enter the manager's name. = Abel Tuter
+and Please enter the remark. = remark</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:19:44</sys_created_on>
+        <sys_id>a0ddb71083126e108b9cf496feaad325</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_a0ddb71083126e108b9cf496feaad325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 02:14:31</sys_updated_on>
+        <table/>
+        <test display_value="My New Test">4b2b775c83de2e108b9cf496feaad3bf</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a0ddb71083126e108b9cf496feaad325"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a0ddb71083126e108b9cf496feaad325</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:19:44</sys_created_on>
+        <sys_id>3f0ef75083126e108b9cf496feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 06:19:44</sys_updated_on>
+        <value>IO:de04743f47a12610713b52e1d16d4337=thnik_pad_one^IO:9204743f47a12610713b52e1d16d4320=46d44a23a9fe19810012d100cca80666^IO:8dd1dd3747652610713b52e1d16d4393=62826bf03710200044e0bfc8bcbe5df1^IO:9e04743f47a12610713b52e1d16d4313=remark^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a0ddb71083126e108b9cf496feaad325</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:19:44</sys_created_on>
+        <sys_id>ff0ef75083126e108b9cf496feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 06:19:44</sys_updated_on>
+        <value>5a04743f47a12610713b52e1d16d4304</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=a0ddb71083126e108b9cf496feaad325"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_atf_step_a0ddb71083126e108b9cf496feaad325</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Answer the questions on the form as follows:
+Please chiose laptop type = ThnikPad One
+and Please enter the applicant's name. = Beth Anglin
+and Please enter the manager's name. = Abel Tuter
+and Please enter the remark. = remark</description><display_name>Set Variable Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 06:19:44</sys_created_on><sys_id>a0ddb71083126e108b9cf496feaad325</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Set Variable Values</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_a0ddb71083126e108b9cf496feaad325</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 02:14:31</sys_updated_on><table/><test display_value="My New Test">4b2b775c83de2e108b9cf496feaad3bf</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a0ddb71083126e108b9cf496feaad325"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a0ddb71083126e108b9cf496feaad325</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 06:19:44</sys_created_on><sys_id>3f0ef75083126e108b9cf496feaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-19 06:19:44</sys_updated_on><value>IO:de04743f47a12610713b52e1d16d4337=thnik_pad_one^IO:9204743f47a12610713b52e1d16d4320=46d44a23a9fe19810012d100cca80666^IO:8dd1dd3747652610713b52e1d16d4393=62826bf03710200044e0bfc8bcbe5df1^IO:9e04743f47a12610713b52e1d16d4313=remark^EQ</value><variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a0ddb71083126e108b9cf496feaad325</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 06:19:44</sys_created_on><sys_id>ff0ef75083126e108b9cf496feaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-19 06:19:44</sys_updated_on><value>5a04743f47a12610713b52e1d16d4304</value><variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=a0ddb71083126e108b9cf496feaad325"/></record_update>]]></payload>
+        <payload_hash>-1828450175</payload_hash>
+        <record_name>Set Variable Values</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 02:14:31</sys_created_on>
+        <sys_id>d98f40b08356ae108b9cf496feaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1978b1dbc420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 02:14:31</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>518f40b0cc56ae108b98acfdab1f5fa7</update_guid>
+        <update_guid_history>518f40b0cc56ae108b98acfdab1f5fa7:-1828450175,fb7f00b0c356ae10bbb75ebcc0252ff2:-1775547680,7a7b4c3c1116ae1085df3cf50e025fe1:-1828450175,817b4c3cb016ae10ccb91c1965442804:-1775547680,e0b888384316ae105c00e00d2f560877:-1828450175,4ea848381516ae10b95474bb5ef4c666:-1775547680,f70ef750fe126e10c176cfc2bc52bc64:-1828450175</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 02:14:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>848f1ecdfd624ff8a7f2d0b49d7ff310</sys_id>
+        <sys_metadata>a0ddb71083126e108b9cf496feaad325</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a0ddb71083126e108b9cf496feaad325</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a0ddb71083126e108b9cf496feaad325">d98f40b08356ae108b9cf496feaad3a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 02:14:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

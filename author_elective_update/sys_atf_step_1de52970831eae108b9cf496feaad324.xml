@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open the record '{{Step 7: Record Query.First record}}' in the 'Approver Listener Reference-&gt;Approval' related list on the 'Approval' form</description>
+        <display_name>Open a Record in List</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Open a Record in List">0200ac2fe72003005c85cd19d2f6a942</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>1de52970831eae108b9cf496feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record in List</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_1de52970831eae108b9cf496feaad324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="AAMy New Test">fa3b953483daae108b9cf496feaad326</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=1de52970831eae108b9cf496feaad324"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1de52970831eae108b9cf496feaad324</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>0b06e970831eae108b9cf496feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <value>sys_flow_approver_listener_reference.approval</value>
+        <variable display_value="Related list">5121646fe72003005c85cd19d2f6a99a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1de52970831eae108b9cf496feaad324</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>4706e970831eae108b9cf496feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <value>related_list</value>
+        <variable display_value="List type">b8c89a36538333009e02ddeeff7b12f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1de52970831eae108b9cf496feaad324</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>8306e970831eae108b9cf496feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <value/>
+        <variable display_value="Record">b076e295531233009e02ddeeff7b12d9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1de52970831eae108b9cf496feaad324</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>8f06e970831eae108b9cf496feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <value>sys_flow_approver_listener_reference</value>
+        <variable display_value="Related list table">c181286fe72003005c85cd19d2f6a93b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1de52970831eae108b9cf496feaad324</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>cb06e970831eae108b9cf496feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="Table">6fb0a06fe72003005c85cd19d2f6a9da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1de52970831eae108b9cf496feaad324"/>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>1de52970831eae108b9cf496feaad324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>0306e970831eae108b9cf496feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <table>var__m_atf_input_variable_0200ac2fe72003005c85cd19d2f6a942</table>
+        <value>{{step['61746d30831eae108b9cf496feaad365'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_atf_step_1de52970831eae108b9cf496feaad324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Open the record '{{Step 7: Record Query.First record}}' in the 'Approver Listener Reference-&gt;Approval' related list on the 'Approval' form</description><display_name>Open a Record in List</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>8</order><step_config display_value="Open a Record in List">0200ac2fe72003005c85cd19d2f6a942</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>1de52970831eae108b9cf496feaad324</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a Record in List</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_1de52970831eae108b9cf496feaad324</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><table>sysapproval_approver</table><test display_value="AAMy New Test">fa3b953483daae108b9cf496feaad326</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=1de52970831eae108b9cf496feaad324"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1de52970831eae108b9cf496feaad324</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>0b06e970831eae108b9cf496feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><value>sys_flow_approver_listener_reference.approval</value><variable display_value="Related list">5121646fe72003005c85cd19d2f6a99a</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1de52970831eae108b9cf496feaad324</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>4706e970831eae108b9cf496feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><value>related_list</value><variable display_value="List type">b8c89a36538333009e02ddeeff7b12f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1de52970831eae108b9cf496feaad324</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>8306e970831eae108b9cf496feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><value/><variable display_value="Record">b076e295531233009e02ddeeff7b12d9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1de52970831eae108b9cf496feaad324</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>8f06e970831eae108b9cf496feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><value>sys_flow_approver_listener_reference</value><variable display_value="Related list table">c181286fe72003005c85cd19d2f6a93b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1de52970831eae108b9cf496feaad324</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>cb06e970831eae108b9cf496feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><value>sysapproval_approver</value><variable display_value="Table">6fb0a06fe72003005c85cd19d2f6a9da</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=1de52970831eae108b9cf496feaad324"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>1de52970831eae108b9cf496feaad324</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 08:32:33</sys_created_on><sys_id>0306e970831eae108b9cf496feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 08:32:33</sys_updated_on><table>var__m_atf_input_variable_0200ac2fe72003005c85cd19d2f6a942</table><value>{{step['61746d30831eae108b9cf496feaad365'].first_record}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-194557214</payload_hash>
+        <record_name>Open a Record in List</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:32:33</sys_created_on>
+        <sys_id>0b06edb0831eae108b9cf496feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1978c77d86d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:32:33</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0306e970bf1eae10c3afee47584e77d2</update_guid>
+        <update_guid_history>0306e970bf1eae10c3afee47584e77d2:-194557214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 08:41:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0904b90d314f4c2090feab88ba892890</sys_id>
+        <sys_metadata>1de52970831eae108b9cf496feaad324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record in List</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_1de52970831eae108b9cf496feaad324</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_1de52970831eae108b9cf496feaad324">0b06edb0831eae108b9cf496feaad373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 08:41:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

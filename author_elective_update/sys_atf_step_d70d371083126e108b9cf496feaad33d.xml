@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Impersonate the user: Abel Tuter with user Id: abel.tuter
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate</notes>
+        <order>1</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:15:47</sys_created_on>
+        <sys_id>d70d371083126e108b9cf496feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_d70d371083126e108b9cf496feaad33d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 06:15:47</sys_updated_on>
+        <table/>
+        <test display_value="My New Test">4b2b775c83de2e108b9cf496feaad3bf</test>
+        <timeout/>
+        <warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=d70d371083126e108b9cf496feaad33d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d70d371083126e108b9cf496feaad33d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:15:47</sys_created_on>
+        <sys_id>3d2d7b1083126e108b9cf496feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 06:15:47</sys_updated_on>
+        <value>62826bf03710200044e0bfc8bcbe5df1</value>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=d70d371083126e108b9cf496feaad33d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_atf_step_d70d371083126e108b9cf496feaad33d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Impersonate the user: Abel Tuter with user Id: abel.tuter
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes>Impersonate</notes><order>1</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 06:15:47</sys_created_on><sys_id>d70d371083126e108b9cf496feaad33d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_d70d371083126e108b9cf496feaad33d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-19 06:15:47</sys_updated_on><table/><test display_value="My New Test">4b2b775c83de2e108b9cf496feaad3bf</test><timeout/><warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=d70d371083126e108b9cf496feaad33d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d70d371083126e108b9cf496feaad33d</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 06:15:47</sys_created_on><sys_id>3d2d7b1083126e108b9cf496feaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-19 06:15:47</sys_updated_on><value>62826bf03710200044e0bfc8bcbe5df1</value><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=d70d371083126e108b9cf496feaad33d"/></record_update>]]></payload>
+        <payload_hash>1227103987</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:15:47</sys_created_on>
+        <sys_id>b12d7b1083126e108b9cf496feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19786d444530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-19 06:15:47</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>b52d7b10a5126e1081478a2f3f82ae19</update_guid>
+        <update_guid_history>b52d7b10a5126e1081478a2f3f82ae19:1227103987</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 07:44:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3b19111e089d466091da356fe0a71149</sys_id>
+        <sys_metadata>d70d371083126e108b9cf496feaad33d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_d70d371083126e108b9cf496feaad33d</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_d70d371083126e108b9cf496feaad33d">b12d7b1083126e108b9cf496feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 07:44:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

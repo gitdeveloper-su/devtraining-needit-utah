@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Navigate to the 'My Approvals' module in the 'Service Catalog' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 06:49:26</sys_created_on>
+        <sys_id>4e5ec570839aae108b9cf496feaad31d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_4e5ec570839aae108b9cf496feaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 07:27:56</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="My New Test">4b2b775c83de2e108b9cf496feaad3bf</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=4e5ec570839aae108b9cf496feaad31d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>4e5ec570839aae108b9cf496feaad31d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 06:49:26</sys_created_on>
+        <sys_id>2c7e0170839aae108b9cf496feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 06:49:26</sys_updated_on>
+        <value>21e4d5e5c61122840044c4a4f9f36d4c</value>
+        <variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=4e5ec570839aae108b9cf496feaad31d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_atf_step_4e5ec570839aae108b9cf496feaad31d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Navigate to the 'My Approvals' module in the 'Service Catalog' application</description><display_name>Navigate to Module</display_name><inputs/><mugshots_cache_json/><notes/><order>8</order><step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 06:49:26</sys_created_on><sys_id>4e5ec570839aae108b9cf496feaad31d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Navigate to Module</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_4e5ec570839aae108b9cf496feaad31d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 07:27:56</sys_updated_on><table>sysapproval_approver</table><test display_value="My New Test">4b2b775c83de2e108b9cf496feaad3bf</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=4e5ec570839aae108b9cf496feaad31d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>4e5ec570839aae108b9cf496feaad31d</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 06:49:26</sys_created_on><sys_id>2c7e0170839aae108b9cf496feaad334</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 06:49:26</sys_updated_on><value>21e4d5e5c61122840044c4a4f9f36d4c</value><variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=4e5ec570839aae108b9cf496feaad31d"/></record_update>]]></payload>
+        <payload_hash>-800162659</payload_hash>
+        <record_name>Navigate to Module</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 07:27:56</sys_created_on>
+        <sys_id>e44711fc839aae108b9cf496feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1978c3caf680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 07:27:56</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>6c4711fc3c9aae10902d85a4ba6076ee</update_guid>
+        <update_guid_history>6c4711fc3c9aae10902d85a4ba6076ee:-800162659,287e0170979aae104b6acd20dca67936:603657534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 07:33:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>065ef3588e0e41f6a22668550ea01b09</sys_id>
+        <sys_metadata>4e5ec570839aae108b9cf496feaad31d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_4e5ec570839aae108b9cf496feaad31d</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_4e5ec570839aae108b9cf496feaad31d">e44711fc839aae108b9cf496feaad3ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 07:33:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
