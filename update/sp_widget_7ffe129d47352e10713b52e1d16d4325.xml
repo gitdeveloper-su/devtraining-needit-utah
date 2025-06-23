@@ -92,8 +92,8 @@
 	    color: #54F5FB;
 }
 
-a:active {
-  background-color: yellow;
+.btn-primary {
+  background-color: #0000ff;
 }
 
 </css>
@@ -116,14 +116,14 @@ a:active {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-28 05:26:56</sys_created_on>
         <sys_id>7ffe129d47352e10713b52e1d16d4325</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>widget for demo2</sys_name>
         <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sp_widget_7ffe129d47352e10713b52e1d16d4325</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-23 05:06:31</sys_updated_on>
+        <sys_updated_on>2025-06-23 06:53:39</sys_updated_on>
         <template><![CDATA[<div>
   <div class="btn-group btn-breadcrumb" >
     <a ng-click="c.showSection('section1')" class="btn btn-info" ><i class="glyphicon glyphicon-home"></i></a>
