@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+State = Ready
+and Subject contains You task has been rejected
+and Type in (send-ready, sent)
+and Recipients contains 	beth.anglin@example.com
+With a failure timeout of 120 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>15</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 05:59:49</sys_created_on>
+        <sys_id>afb2688c83a622108b9cf496feaad38a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_afb2688c83a622108b9cf496feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 08:12:17</sys_updated_on>
+        <table/>
+        <test display_value="AATaskRejectTest">da703b3b839222108b9cf496feaad3f3</test>
+        <timeout>1970-01-01 00:02:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=afb2688c83a622108b9cf496feaad38a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>afb2688c83a622108b9cf496feaad38a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 05:59:49</sys_created_on>
+        <sys_id>0ff2a8cc83a622108b9cf496feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 05:59:49</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>afb2688c83a622108b9cf496feaad38a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 05:59:49</sys_created_on>
+        <sys_id>4bf2a8cc83a622108b9cf496feaad364</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 08:08:48</sys_updated_on>
+        <value>state=ready^subjectLIKEYou task has been rejected^typeINsend-ready,sent^recipientsLIKE	beth.anglin@example.com^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=afb2688c83a622108b9cf496feaad38a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_atf_step_afb2688c83a622108b9cf496feaad38a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Validate that an email was generated matching query:
+State = Ready
+and Subject contains You task has been rejected
+and Type in (send-ready, sent)
+and Recipients contains 	beth.anglin@example.com
+With a failure timeout of 120 Seconds</description><display_name>Validate Outbound Email</display_name><inputs/><mugshots_cache_json/><notes/><order>15</order><step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 05:59:49</sys_created_on><sys_id>afb2688c83a622108b9cf496feaad38a</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Validate Outbound Email</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_afb2688c83a622108b9cf496feaad38a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 08:12:17</sys_updated_on><table/><test display_value="AATaskRejectTest">da703b3b839222108b9cf496feaad3f3</test><timeout>1970-01-01 00:02:00</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=afb2688c83a622108b9cf496feaad38a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>afb2688c83a622108b9cf496feaad38a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 05:59:49</sys_created_on><sys_id>0ff2a8cc83a622108b9cf496feaad364</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 05:59:49</sys_updated_on><value>sys_email</value><variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>afb2688c83a622108b9cf496feaad38a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-30 05:59:49</sys_created_on><sys_id>4bf2a8cc83a622108b9cf496feaad364</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-30 08:08:48</sys_updated_on><value>state=ready^subjectLIKEYou task has been rejected^typeINsend-ready,sent^recipientsLIKE	beth.anglin@example.com^EQ</value><variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=afb2688c83a622108b9cf496feaad38a"/></record_update>]]></payload>
+        <payload_hash>1367993998</payload_hash>
+        <record_name>Validate Outbound Email</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 08:12:17</sys_created_on>
+        <sys_id>af41050083aa22108b9cf496feaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197bfe4e1fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 08:12:17</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>274105006caa2210c74164f3f6ba4e01</update_guid>
+        <update_guid_history>274105006caa2210c74164f3f6ba4e01:1367993998,a8808d8ce76a22107e0e6fe0fee9d5a8:352698956,61bdfc482f6a22108f799cc6820e1be7:-2076644884,b8db7c04826a221031d55738df5d0fa2:79605217,9f57b8cc192a221010bd7d335fb5679c:-2101008358,bf76708c672a22102f039f3c24f59ef8:654067516,e8b5f40c6c2a22105f6eb7b81df7f0de:-2101008358,4feb200cdce622105685547c9d5a8037:-1422793793,88bb6cc8c9e62210d51bb666cd8cd16e:-345891394,fbc3ec0024e6221018678e375a66fd35:-829959144,07f2a8cce9a62210c260f4ba4d0ca966:-1614351751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 08:16:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>03e53af5eba54930a34684fef8161751</sys_id>
+        <sys_metadata>afb2688c83a622108b9cf496feaad38a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_afb2688c83a622108b9cf496feaad38a</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_afb2688c83a622108b9cf496feaad38a">af41050083aa22108b9cf496feaad301</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 08:16:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
