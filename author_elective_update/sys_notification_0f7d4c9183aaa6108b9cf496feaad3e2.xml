@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_notification">
+    <sys_notification action="DELETE">
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <advanced_event_condition>false</advanced_event_condition>
+        <category display_value="Incident" name="Incident">b8a7d60c4309b510bab01febb7b8f293</category>
+        <condition table="incident">assignment_group=48f56885832a66108b9cf496feaad38d^ORassignment_group=23162005832a66108b9cf496feaad307^EQ<item display_table="sys_user_group" display_value="Assign to Hardware" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="48f56885832a66108b9cf496feaad38d"/>
+            <item display_table="sys_user_group" display_value="Assign to Software" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="true" value="23162005832a66108b9cf496feaad307"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <event/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_1_table>sys_user</event_parm_1_table>
+        <event_parm_2>false</event_parm_2>
+        <event_parm_2_table>sys_user</event_parm_2_table>
+        <include_originator>true</include_originator>
+        <mandatory>false</mandatory>
+        <name>Demo Notification trigger</name>
+        <notification_classifier/>
+        <order>100</order>
+        <recipient_fields>assignment_group</recipient_fields>
+        <recipient_users/>
+        <script><![CDATA[(function runRecipientScript(/*String*/ parm1, /*String*/ parm2) {
+      /*
+      //Create instance of AdvancedNotificationRecipients to add recipients
+      var nr = new sn_notification.AdvancedNotificationRecipients();
+      var sysIds = [];
+      var gr = new GlideRecord('sys_user');
+      gr.addQuery('first_name','IN',parm1);
+      gr.query();
+      while (gr.next()) {
+        sysIds.push(gr.getValue('sys_id'));
+      }
+      nr.addRecipientInfo('sys_user',sysIds);
+      return nr;*/
+      })(parm1,parm2);]]></script>
+        <sys_class_name>sys_notification</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 01:40:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f7d4c9183aaa6108b9cf496feaad3e2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo Notification trigger</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_notification_0f7d4c9183aaa6108b9cf496feaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 02:23:28</sys_updated_on>
+        <table>incident</table>
+        <triggered_by>record_change</triggered_by>
+    </sys_notification>
+    <sys_es_latest_script action="DELETE">
+        <id>0f7d4c9183aaa6108b9cf496feaad3e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 01:40:01</sys_created_on>
+        <sys_id>e0ed80d183aaa6108b9cf496feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 01:40:01</sys_updated_on>
+        <table>sys_notification</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_notification_0f7d4c9183aaa6108b9cf496feaad3e2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_notification"&gt;&lt;sys_notification action="INSERT_OR_UPDATE"&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;advanced_event_condition&gt;false&lt;/advanced_event_condition&gt;&lt;category display_value="Incident" name="Incident"&gt;b8a7d60c4309b510bab01febb7b8f293&lt;/category&gt;&lt;condition table="incident"&gt;assignment_group=48f56885832a66108b9cf496feaad38d^ORassignment_group=23162005832a66108b9cf496feaad307^EQ&lt;item display_table="sys_user_group" display_value="Assign to Hardware" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="48f56885832a66108b9cf496feaad38d"/&gt;&lt;item display_table="sys_user_group" display_value="Assign to Software" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="true" value="23162005832a66108b9cf496feaad307"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description/&gt;&lt;event/&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_1_table&gt;sys_user&lt;/event_parm_1_table&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;event_parm_2_table&gt;sys_user&lt;/event_parm_2_table&gt;&lt;include_originator&gt;true&lt;/include_originator&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;name&gt;Demo Notification trigger&lt;/name&gt;&lt;notification_classifier/&gt;&lt;order&gt;100&lt;/order&gt;&lt;recipient_fields&gt;assignment_group&lt;/recipient_fields&gt;&lt;recipient_users/&gt;&lt;script&gt;&lt;![CDATA[(function runRecipientScript(/*String*/ parm1, /*String*/ parm2) {
+      /*
+      //Create instance of AdvancedNotificationRecipients to add recipients
+      var nr = new sn_notification.AdvancedNotificationRecipients();
+      var sysIds = [];
+      var gr = new GlideRecord('sys_user');
+      gr.addQuery('first_name','IN',parm1);
+      gr.query();
+      while (gr.next()) {
+        sysIds.push(gr.getValue('sys_id'));
+      }
+      nr.addRecipientInfo('sys_user',sysIds);
+      return nr;*/
+      })(parm1,parm2);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_notification&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-04 01:40:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0f7d4c9183aaa6108b9cf496feaad3e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Demo Notification trigger&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Demo" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_notification_0f7d4c9183aaa6108b9cf496feaad3e2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-04 02:23:28&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;triggered_by&gt;record_change&lt;/triggered_by&gt;&lt;/sys_notification&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0f7d4c9183aaa6108b9cf496feaad3e2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-04 01:40:01&lt;/sys_created_on&gt;&lt;sys_id&gt;e0ed80d183aaa6108b9cf496feaad383&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-04 01:40:01&lt;/sys_updated_on&gt;&lt;table&gt;sys_notification&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-566827807</payload_hash>
+        <record_name>Demo Notification trigger</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 02:23:28</sys_created_on>
+        <sys_id>45d75c5183eaa6108b9cf496feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197d33ef7030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 02:23:28</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>c5d7d45131eaa61046e5b09ca11d3fcb</update_guid>
+        <update_guid_history>c5d7d45131eaa61046e5b09ca11d3fcb:-566827807,f8b01cd532aaa6109cb54b9cd17827dd:136841018,e22fc45513aaa6105628b0f05be8029b:-566827807,e4ed84d1aeaaa6103371dcc16aa464c6:-828478140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 02:59:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_notification">sys_notification</sys_db_object>
+        <sys_id>f32ea003dd334438aa8d1f2dbd919d29</sys_id>
+        <sys_metadata>0f7d4c9183aaa6108b9cf496feaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Notification trigger</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_notification_0f7d4c9183aaa6108b9cf496feaad3e2</sys_update_name>
+        <sys_update_version display_value="sys_notification_0f7d4c9183aaa6108b9cf496feaad3e2">45d75c5183eaa6108b9cf496feaad30b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 02:59:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

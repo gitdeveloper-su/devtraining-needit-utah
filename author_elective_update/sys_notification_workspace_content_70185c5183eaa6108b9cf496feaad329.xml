@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content">
+    <sys_notification_workspace_content action="DELETE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <name>Demo Notification Content</name>
+        <notification display_value="Demo Notification trigger">0f7d4c9183aaa6108b9cf496feaad3e2</notification>
+        <route display_value="Agent Workspace">cb1af195872023002941b53046cb0b4e</route>
+        <sys_class_name>sys_notification_workspace_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 02:24:59</sys_created_on>
+        <sys_id>70185c5183eaa6108b9cf496feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Notification Content</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_notification_workspace_content_70185c5183eaa6108b9cf496feaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 02:24:59</sys_updated_on>
+    </sys_notification_workspace_content>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sys_notification_workspace_content_70185c5183eaa6108b9cf496feaad329</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content"><sys_notification_workspace_content action="INSERT_OR_UPDATE"><active>true</active><is_default>false</is_default><name>Demo Notification Content</name><notification display_value="Demo Notification trigger">0f7d4c9183aaa6108b9cf496feaad3e2</notification><route display_value="Agent Workspace">cb1af195872023002941b53046cb0b4e</route><sys_class_name>sys_notification_workspace_content</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-04 02:24:59</sys_created_on><sys_id>70185c5183eaa6108b9cf496feaad329</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo Notification Content</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_notification_workspace_content_70185c5183eaa6108b9cf496feaad329</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-04 02:24:59</sys_updated_on></sys_notification_workspace_content></record_update>]]></payload>
+        <payload_hash>-1130363586</payload_hash>
+        <record_name>Demo Notification Content</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 02:25:00</sys_created_on>
+        <sys_id>5f289c5183eaa6108b9cf496feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197d3405cb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 02:25:00</sys_updated_on>
+        <type>Notification Workspace Content</type>
+        <update_guid>53289c512aeaa610d7ebd40c492bc402</update_guid>
+        <update_guid_history>53289c512aeaa610d7ebd40c492bc402:-1130363586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-04 02:59:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_notification_workspace_content">sys_notification_workspace_content</sys_db_object>
+        <sys_id>440e09e31c3844f0863c5fa089f9eb90</sys_id>
+        <sys_metadata>70185c5183eaa6108b9cf496feaad329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Notification Content</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_notification_workspace_content_70185c5183eaa6108b9cf496feaad329</sys_update_name>
+        <sys_update_version display_value="sys_notification_workspace_content_70185c5183eaa6108b9cf496feaad329">5f289c5183eaa6108b9cf496feaad302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-04 02:59:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
