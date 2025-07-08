@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sla_timer_config_mapping">
+    <sla_timer_config_mapping action="DELETE">
+        <config display_value="Ticket Incident Resolution ">651da86e83ae2e108b9cf496feaad3ae</config>
+        <name/>
+        <order>40</order>
+        <sla display_value="Ticket Priority 4 Resolution(48h)">5c2d13828366ea108b9cf496feaad3ac</sla>
+        <sys_class_name>sla_timer_config_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 01:13:20</sys_created_on>
+        <sys_id>931e24ee83ae2e108b9cf496feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sla_timer_config_mapping_931e24ee83ae2e108b9cf496feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 01:13:20</sys_updated_on>
+        <table>incident</table>
+    </sla_timer_config_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sla_timer_config_mapping_931e24ee83ae2e108b9cf496feaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sla_timer_config_mapping"><sla_timer_config_mapping action="INSERT_OR_UPDATE"><config display_value="Ticket Incident Resolution ">651da86e83ae2e108b9cf496feaad3ae</config><name/><order>40</order><sla display_value="Ticket Priority 4 Resolution(48h)">5c2d13828366ea108b9cf496feaad3ac</sla><sys_class_name>sla_timer_config_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-08 01:13:20</sys_created_on><sys_id>931e24ee83ae2e108b9cf496feaad35a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sla_timer_config_mapping_931e24ee83ae2e108b9cf496feaad35a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-08 01:13:20</sys_updated_on><table>incident</table></sla_timer_config_mapping></record_update>]]></payload>
+        <payload_hash>1573038922</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 01:13:20</sys_created_on>
+        <sys_id>682e24ee83ae2e108b9cf496feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e798305a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 01:13:20</sys_updated_on>
+        <type>SLA timer configuration mapping</type>
+        <update_guid>6c2e24ee4fae2e10bc6be13872c4f2ca</update_guid>
+        <update_guid_history>6c2e24ee4fae2e10bc6be13872c4f2ca:1573038922</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d58c2da283266e108b9cf496feaad3e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 05:45:54</sys_created_on>
+        <sys_db_object display_value="" name="sla_timer_config_mapping">sla_timer_config_mapping</sys_db_object>
+        <sys_id>20a5b564d3104d3ca379313222881090</sys_id>
+        <sys_metadata>931e24ee83ae2e108b9cf496feaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sla_timer_config_mapping_931e24ee83ae2e108b9cf496feaad35a</sys_update_name>
+        <sys_update_version display_value="sla_timer_config_mapping_931e24ee83ae2e108b9cf496feaad35a">682e24ee83ae2e108b9cf496feaad3cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 05:45:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

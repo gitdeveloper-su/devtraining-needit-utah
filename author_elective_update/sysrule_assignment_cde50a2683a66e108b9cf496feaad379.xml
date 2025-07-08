@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="DELETE">
+        <active>true</active>
+        <condition table="incident">categoryINsoftware,hardware^EQ<item display_value="software,hardware" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="software,hardware"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group/>
+        <match_conditions>ALL</match_conditions>
+        <name>Demo Incident</name>
+        <order>10</order>
+        <script>if (current.category == "Hardware") {&#13;
+    current.assignment_group.setDisplayValue('Assign to Hardware');&#13;
+} else if (current.category == "Software") {&#13;
+    current.assignment_group.setDisplayValue('Assign to Software');&#13;
+} &#13;
+&#13;
+</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 07:39:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cde50a2683a66e108b9cf496feaad379</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Demo Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysrule_assignment_cde50a2683a66e108b9cf496feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:24:31</sys_updated_on>
+        <table>incident</table>
+        <user/>
+    </sysrule_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>sysrule_assignment_cde50a2683a66e108b9cf496feaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="incident">categoryINsoftware,hardware^EQ<item display_value="software,hardware" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="software,hardware"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group/><match_conditions>ALL</match_conditions><name>Demo Incident</name><order>10</order><script>if (current.category == "Hardware") {&#13;
+    current.assignment_group.setDisplayValue('Assign to Hardware');&#13;
+} else if (current.category == "Software") {&#13;
+    current.assignment_group.setDisplayValue('Assign to Software');&#13;
+} &#13;
+&#13;
+</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-08 07:39:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cde50a2683a66e108b9cf496feaad379</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Demo Incident</sys_name><sys_overrides/><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sysrule_assignment_cde50a2683a66e108b9cf496feaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-08 08:24:31</sys_updated_on><table>incident</table><user/></sysrule_assignment></record_update>]]></payload>
+        <payload_hash>-1907475789</payload_hash>
+        <record_name>Demo Incident</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:24:31</sys_created_on>
+        <sys_id>fcd0da2283e66e108b9cf496feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e922f5340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:24:31</sys_updated_on>
+        <type>Assignment Rule</type>
+        <update_guid>74d0da22b5e66e102204e695a2d6445f</update_guid>
+        <update_guid_history>74d0da22b5e66e102204e695a2d6445f:-1907475789,146eceee6aa66e10284801e59825e9e6:-2019580460,6dedc26e9ea66e108d08e46be484a512:-130545113,c78a02ea3ba66e10fa8b403f697438bf:2120106663,b84882a636a66e1076a11933e0984afc:-1907295079,21968a6624a66e10ce5b973a1f6acbbd:-2055104053,9b760a6619a66e107e9521025a9225d7:-161208493</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 08:28:44</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_assignment">sysrule_assignment</sys_db_object>
+        <sys_id>43fdc58876204ed89170d60d92073e40</sys_id>
+        <sys_metadata>cde50a2683a66e108b9cf496feaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Incident</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">dd631e6cc891221055906c7518aa2dce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysrule_assignment_cde50a2683a66e108b9cf496feaad379</sys_update_name>
+        <sys_update_version display_value="sysrule_assignment_cde50a2683a66e108b9cf496feaad379">fcd0da2283e66e108b9cf496feaad35f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 08:28:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

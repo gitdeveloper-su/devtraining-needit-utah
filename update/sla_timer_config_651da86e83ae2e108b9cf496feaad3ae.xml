@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sla_timer_config">
+    <sla_timer_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Ticket Incident Resolution </name>
+        <show_actual_time>true</show_actual_time>
+        <show_cancelled>false</show_cancelled>
+        <show_complete>true</show_complete>
+        <sla_timer_source>2</sla_timer_source>
+        <sys_class_name>sla_timer_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 01:09:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>651da86e83ae2e108b9cf496feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ticket Incident Resolution </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sla_timer_config_651da86e83ae2e108b9cf496feaad3ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 01:09:44</sys_updated_on>
+    </sla_timer_config>
+</record_update>
