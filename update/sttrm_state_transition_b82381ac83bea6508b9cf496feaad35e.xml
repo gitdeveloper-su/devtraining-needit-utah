@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_state_transition">
+    <sttrm_state_transition action="INSERT_OR_UPDATE">
+        <automatic>false</automatic>
+        <from_state display_value="New">5ac1cde883bea6508b9cf496feaad31d</from_state>
+        <name>New to Canceled</name>
+        <sys_class_name>sttrm_state_transition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 07:53:02</sys_created_on>
+        <sys_id>b82381ac83bea6508b9cf496feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New to Canceled</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sttrm_state_transition_b82381ac83bea6508b9cf496feaad35e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 07:53:02</sys_updated_on>
+        <to_state display_value="Canceled">c9134d6c83bea6508b9cf496feaad364</to_state>
+    </sttrm_state_transition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b82381ac83bea6508b9cf496feaad35e"/>
+</record_update>

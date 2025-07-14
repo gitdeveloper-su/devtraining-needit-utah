@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_state_attribute">
+    <sttrm_state_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <sttrm_attribute display_value="Allow Implementation">2ca2cbd5ff2031107f54ffffffffff6c</sttrm_attribute>
+        <sttrm_state display_value="Implement">3602852c83bea6508b9cf496feaad346</sttrm_state>
+        <sys_class_name>sttrm_state_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 08:26:09</sys_created_on>
+        <sys_id>4fba852883fea6508b9cf496feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sttrm_state_attribute_4fba852883fea6508b9cf496feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 08:26:09</sys_updated_on>
+    </sttrm_state_attribute>
+</record_update>
