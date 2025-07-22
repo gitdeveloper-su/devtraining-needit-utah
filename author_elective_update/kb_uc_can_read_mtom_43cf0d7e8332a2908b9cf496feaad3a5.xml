@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="Demo Knowledge Base Approval">518f8d368332a2908b9cf496feaad33e</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-21 08:34:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43cf0d7e8332a2908b9cf496feaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Knowledge Base Approval.Any User</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_43cf0d7e8332a2908b9cf496feaad3a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-21 08:34:35</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </kb_uc_can_read_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>578c8c2e1b7a35141024eb9b2d4bcb70</instance_id>
+        <instance_name>dev231291</instance_name>
+        <name>kb_uc_can_read_mtom_43cf0d7e8332a2908b9cf496feaad3a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Demo Knowledge Base Approval">518f8d368332a2908b9cf496feaad33e</kb_knowledge_base><sys_class_name>kb_uc_can_read_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-21 08:34:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>43cf0d7e8332a2908b9cf496feaad3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo Knowledge Base Approval.Any User</sys_name><sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>kb_uc_can_read_mtom_43cf0d7e8332a2908b9cf496feaad3a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-21 08:34:35</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+        <payload_hash>1412105842</payload_hash>
+        <record_name>Demo Knowledge Base Approval.Any User</record_name>
+        <reverted_from/>
+        <source>e67f8b71838622108b9cf496feaad30f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-21 08:34:35</sys_created_on>
+        <sys_id>cbcf0d7e8332a2908b9cf496feaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1982c1ed7370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-21 08:34:35</sys_updated_on>
+        <type>Who Can Read Knowledge Base</type>
+        <update_guid>cfcf0d7e4b32a290a35c83221bfa81a6</update_guid>
+        <update_guid_history>cfcf0d7e4b32a290a35c83221bfa81a6:1412105842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Demo Knowledge Base Approval.Any User">2636fd8383f6e2908b9cf496feaad3ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-22 06:00:58</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
+        <sys_id>228327c287de4f5097753a53a48ce310</sys_id>
+        <sys_metadata>43cf0d7e8332a2908b9cf496feaad3a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo Knowledge Base Approval.Any User</sys_name>
+        <sys_package display_value="Demo" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>kb_uc_can_read_mtom_43cf0d7e8332a2908b9cf496feaad3a5</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_read_mtom_43cf0d7e8332a2908b9cf496feaad3a5">cbcf0d7e8332a2908b9cf496feaad3a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 06:00:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
